@@ -1,0 +1,110 @@
+.feed-container {
+  padding: 10px;
+  border: 1px solid #efefef;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+.image {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  display: inline-block;
+}
+
+.image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.feed-title {
+  position: absolute;
+  top: 360px;
+  left: 50px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.feed-nutri-value {
+  position: absolute;
+  top: 380px;
+  left: 55px;
+  color: #fff;
+  width: 40px;
+}
+
+.nutri-title {
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.nutri-value {
+  font-size: 24px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.nutrition-value {
+  width: 30px;
+}
+
+.divider {
+  font-weight: lighter;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.receipe-container {
+  border: 1px solid #efefef;
+  text-align: left;
+  width: 500px;
+  display: inline-block;
+}
+
+.receipe-container .heading {
+  background-color: #dedede;
+}
+
+.receipe-container .heading .title {
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+.receipe-container li {
+  list-style: none;
+  border-bottom: 1px solid #efefef;
+  margin: 7px;
+  font-size: 16px;
+  color: #a0a0a0;
+}
+
+.receipe-container li span {
+  padding: 0 15px;
+}
+
+.receipe-container .body .method {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+}
+
+.receipe-container .body .method-desc {
+  color: #a0a0a0;
+  font-size: 16px;
+}
+
+.receipe-container .method-container {
+  margin-left: 15px;
+}
