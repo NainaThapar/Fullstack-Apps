@@ -1,0 +1,64 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.left-section,
+.right-section {
+  width: 40%;
+  height: 500px;
+  text-align: center;
+  border: 1px solid #efefef;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+
+.right-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.right-section h4 {
+  color: #bcbcbc;
+}
+
+.checkbox-msg::after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+@media only screen and (max-width: 900px) {
+  .left-section {
+    display: none;
+  }
+  .right-section {
+    width: 100%;
+    height: 100%;
+  }
+  .mob-header {
+    width: 81%;
+    float: left;
+  }
+  .mob-icon {
+    float: left;
+    width: 19%;
+    border-bottom: 1px solid #efefef;
+  }
+  .footer {
+    margin-left: -11%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .right-section .mob-icon {
+    display: none;
+  }
+  .footer {
+    margin-left: -17%;
+  }
+}
